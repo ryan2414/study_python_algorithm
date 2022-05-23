@@ -16,4 +16,3 @@ value = int(input('새로운 값을 입력하세요.: '))
 
 change(x, index, value)
 print(f'x = {x}')
-2
