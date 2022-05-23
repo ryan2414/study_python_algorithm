@@ -15,9 +15,9 @@ for n in range(3, 1001, 2):  # 홀수만을 대상으로 설정
         counter += 1
         if n % prime[i] == 0:   # 나누어 떨어지면 소수가 아님
             break               # 반복 중단
-        else:                   # 끝까지 나누어 떨어지지 않았다면
-            prime[ptr] = n      # 소수를 배열에 등록
-            ptr += 1
+    else:                   # 끝까지 나누어 떨어지지 않았다면
+        prime[ptr] = n      # 소수를 배열에 등록
+        ptr += 1
 
 for i in range(ptr):            # ptr의 소수를 출력
     print(prime[i])
