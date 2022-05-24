@@ -5,7 +5,7 @@ from itertools import count
 
 counter = 0                 # 나눗셈 횟수를 카운트
 ptr = 0                     # 이미 찾은 소수의 개수
-prime = [None] * 500  # 소수를 저장하는 배열
+prime = [None] * 500        # 소수를 저장하는 배열
 
 prime[ptr] = 2              # 2는 소수이므로 초기값으로 지정
 ptr += 1
